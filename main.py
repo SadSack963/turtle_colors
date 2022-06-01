@@ -5,7 +5,7 @@ from turtle import Turtle, Screen
 screen = Screen()
 screen.title("Named Python Colours for use in Turtle Graphics")
 screen.setup(width=1080, height=768, startx=10, starty=10)
-screen.screensize(canvwidth=2100, canvheight=700)
+screen.screensize(canvwidth=2200, canvheight=700)
 screen.tracer(0)
 
 tim = Turtle()
@@ -17,7 +17,7 @@ tam.penup()
 tam.hideturtle()
 tam.pencolor("black")
 
-x = -1020
+x = -1080
 y = 335
 
 for color in color_list:
@@ -28,6 +28,6 @@ for color in color_list:
     y -= 15
     if y < -350:
         y = 335
-        x += 120
+        x += 130
 
 screen.exitonclick()
