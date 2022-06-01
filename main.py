@@ -3,7 +3,7 @@ from turtle import Turtle, Screen
 
 
 screen = Screen()
-screen.title("Named Python Colours for use in Turtle Graphics")
+screen.title("Named Colours for use in Turtle Graphics (and Tkinter)")
 screen.setup(width=1080, height=768, startx=10, starty=10)
 screen.screensize(canvwidth=2200, canvheight=700)
 screen.tracer(0)

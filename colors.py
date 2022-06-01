@@ -1,3 +1,5 @@
+# Turtle Graphics Named Colors are defined in Tk here: https://www.tcl.tk/man/tcl8.7/TkCmd/colors.html
+
 COLORS_ALPHABETIC = [
     "alice blue", "AliceBlue", "antique white", "AntiqueWhite", "AntiqueWhite1", "AntiqueWhite2", "AntiqueWhite3",
     "AntiqueWhite4", "aquamarine", "aquamarine1", "aquamarine2", "aquamarine3", "aquamarine4", "azure", "azure1",
